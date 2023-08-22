@@ -6,5 +6,6 @@ public class Workout {
     private String name;
     private Date date;
     private Exercise[] exercises;
+    private Gym gym;
 
 }

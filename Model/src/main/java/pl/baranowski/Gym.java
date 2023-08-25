@@ -2,10 +2,10 @@ package pl.baranowski;
 
 public class Gym {
     private String name;
-    private String address;
+    private Address address;
     private boolean isOpen;
 
-    public Gym(String name, String address, boolean isOpen) {
+    public Gym(String name, Address address, boolean isOpen) {
         this.name = name;
         this.address = address;
         this.isOpen = isOpen;
@@ -19,11 +19,11 @@ public class Gym {
         this.name = name;
     }
 
-    public String getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 
